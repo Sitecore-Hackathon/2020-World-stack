@@ -7,6 +7,9 @@
 }
 
 .hackathon-teams .component-content .container .row:nth-child(2) .swiper-container .swiper-wrapper .swiper-slide .github-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #fff;
   padding: 16px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
@@ -16,8 +19,8 @@
   background: #fff;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-transform: translateZ(10px);
-  transform: translateZ(10px);
+  -webkit-transform: translateZ(0px);
+  transform: translateZ(0px);
   position: relative;
 }
 
@@ -38,10 +41,43 @@
   transform: translateZ(-6px);
 }
 
+.hackathon-teams .component-content .container .row:nth-child(2) .swiper-container .swiper-wrapper .swiper-slide .github-card:hover {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateZ(10px);
+  transform: translateZ(10px);
+}
+
 .hackathon-teams .component-content .container .row:nth-child(2) .swiper-container .swiper-wrapper .swiper-slide .github-card:hover::before {
   background-color: #19a5a2;
   -webkit-transform: translateZ(-40px) scale(1.2);
   transform: translateZ(-40px) scale(1.2);
+}
+
+.hackathon-teams .component-content .container .row:nth-child(2) .swiper-container .swiper-wrapper .swiper-slide .github-card:hover .card-container .info {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateZ(15px);
+  transform: translateZ(15px);
+}
+
+.hackathon-teams .component-content .container .row:nth-child(2) .swiper-container .swiper-wrapper .swiper-slide .github-card:hover .card-container .description {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateZ(0px);
+  transform: translateZ(0px);
+}
+
+.hackathon-teams .component-content .container .row:nth-child(2) .swiper-container .swiper-wrapper .swiper-slide .github-card .card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .hackathon-teams .component-content .container .row:nth-child(2) .swiper-container .swiper-wrapper .swiper-slide .github-card .card-container .info {
@@ -56,8 +92,8 @@
   padding: 4px 8px;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-transform: translateZ(15px);
-  transform: translateZ(15px);
+  -webkit-transform: translateZ(0px);
+  transform: translateZ(0px);
 }
 
 .hackathon-teams .component-content .container .row:nth-child(2) .swiper-container .swiper-wrapper .swiper-slide .github-card .card-container .info .fork-count::before, .hackathon-teams .component-content .container .row:nth-child(2) .swiper-container .swiper-wrapper .swiper-slide .github-card .card-container .info .stars-count::before {
@@ -78,4 +114,12 @@
 
 .hackathon-teams .component-content .container .row:nth-child(2) .swiper-container .swiper-wrapper .swiper-slide .github-card .card-container .info .stars-count::before {
   background-image: url(../images/icons/github/like.svg);
+}
+
+.hackathon-teams .component-content .container .row:nth-child(2) .swiper-container .swiper-wrapper .swiper-slide .github-card .card-container .description {
+  font-weight: bold;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateZ(0px);
+  transform: translateZ(0px);
 }

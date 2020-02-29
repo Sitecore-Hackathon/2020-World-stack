@@ -16,6 +16,7 @@
                         .swiper-wrapper {
                             .swiper-slide {
                                 .github-card {
+                                    display: flex;
                                     background-color: $sc-white;
                                     padding: 16px;
                                     box-shadow: $sc-box-shadow;
@@ -24,7 +25,7 @@
                                     position: relative;
                                     background: $sc-white;
                                     transform-style: preserve-3d;
-                                    transform: translateZ(10px);
+                                    transform: translateZ(0px);
                                     position: relative;
                                     //background: linear-gradient(to top left, $sc-black, #9C190B);
                                     &::before {
@@ -41,12 +42,27 @@
                                         transform: translateZ(-6px);
                                     }
                                     &:hover {
+                                        transform-style: preserve-3d;
+                                        transform: translateZ(10px);
                                         &::before {
                                             background-color: $sc-light-blue;
                                             transform: translateZ(-40px) scale(1.2);
                                         }
+                                        .card-container {
+                                            .info {
+                                                transform-style: preserve-3d;
+                                                transform: translateZ(15px);
+                                            }
+                                            .description {
+                                                transform-style: preserve-3d;
+                                                transform: translateZ(0px);
+                                            }
+                                        }
                                     }
                                     .card-container {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
                                         .info {
                                             position: absolute;
                                             top: 0px;
@@ -56,7 +72,7 @@
                                             display: flex;
                                             padding: 4px 8px;
                                             transform-style: preserve-3d;
-                                            transform: translateZ(15px);
+                                            transform: translateZ(0px);
                                             .fork-count, .stars-count {
                                                 &::before {
                                                     content: "";
@@ -77,6 +93,11 @@
                                                     background-image: url(../images/icons/github/like.svg);
                                                 }
                                             }
+                                        }
+                                        .description {
+                                            font-weight: bold;
+                                            transform-style: preserve-3d;
+                                            transform: translateZ(0px);
                                         }
                                     }
                                 }
