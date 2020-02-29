@@ -3116,15 +3116,15 @@ h6 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 h3 {
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 h4 {
@@ -3175,4 +3175,28 @@ h6 {
 
 #breadcrumbMenuSubcontrol_context_menu * {
   box-sizing: initial;
+}
+
+@media (min-width: 576px) {
+  [class*='container col-'] {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  [class*='container col-'] {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  [class*='container col-'] {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  [class*='container col-'] {
+    max-width: 1140px;
+  }
 }

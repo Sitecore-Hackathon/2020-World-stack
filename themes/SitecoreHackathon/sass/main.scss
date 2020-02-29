@@ -48,15 +48,15 @@ h6 {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 h4 {
@@ -104,5 +104,21 @@ h6 {
 #breadcrumbMenuSubcontrol_context_menu * {
     box-sizing: initial;
 }
-
 //End navigation bar fix
+
+//Container fix
+[class*='container col-'] {
+    @media (min-width: 576px) {
+        max-width: 540px;
+    }
+    @media (min-width: 768px) {
+        max-width: 720px;
+    }
+    @media (min-width: 992px) {
+        max-width: 960px;
+    }
+    @media (min-width: 1200px) {
+        max-width: 1140px;
+    }
+}
+//End container fix
