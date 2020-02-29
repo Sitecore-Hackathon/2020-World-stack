@@ -25,11 +25,15 @@ body {
 }
 
 a {
-    color: $text-basic;
+    color: $sc-red;
     cursor: pointer;
     font-size: 0.85em;
+    transition: color 0.3s ease;
     &:hover {
-        color: $text-basic-active;
+        color: $sc-light-blue;
+    }
+    &:active {
+        color: $sc-lighter-blue;
     }
 }
 

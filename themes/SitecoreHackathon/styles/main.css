@@ -3074,13 +3074,19 @@ body.on-page-editor {
 }
 
 a {
-  color: #747474;
+  color: #fe2911;
   cursor: pointer;
   font-size: 0.85em;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #878787;
+  color: #19a5a2;
+}
+
+a:active {
+  color: #61cfcd;
 }
 
 h1,
