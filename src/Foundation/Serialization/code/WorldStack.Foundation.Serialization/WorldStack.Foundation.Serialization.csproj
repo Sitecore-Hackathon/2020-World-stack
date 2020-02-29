@@ -109,7 +109,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Web.config" />
+    <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -132,6 +132,7 @@
     <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
     <Content Include="App_Config\Include\Foundation\Serialization\WorldStack.Foundation.Serialization.config" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
