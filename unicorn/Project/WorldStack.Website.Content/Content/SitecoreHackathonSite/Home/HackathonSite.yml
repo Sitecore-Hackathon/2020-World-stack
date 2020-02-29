@@ -4,14 +4,73 @@ Parent: "a6beb605-f5df-4ef9-a2e8-e956ca73b3d3"
 Template: "cc56c37f-ccd4-493a-af22-b2486c07c7a4"
 Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Home/HackathonSite
 DB: master
+SharedFields:
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{0C4B8F28-AD76-4F82-B09C-D96E7477A04D}"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{613F23F8-886A-4521-A84B-25CBF385A00F}"
+              p:before="*"
+              s:ds=""
+              s:id="{7B6223F9-5086-4893-89DF-35C20C391532}"
+              s:par="KeywordPrefix=2020&amp;WinningTeams=Sitecore-Hackathon%2F2020-NaoHa2sem3-Noesis"
+              s:ph="/main/row-1-5" />
+            <r
+              uid="{EAE28641-6E30-41F0-9FDC-B5AB41CB0F46}"
+              p:after="r[@uid='{613F23F8-886A-4521-A84B-25CBF385A00F}']"
+              s:ds=""
+              s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+              s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=5"
+              s:ph="main" />
+            <r
+              uid="{10FE8BA7-6D5E-4C91-AEF5-4CFF56E515CE}"
+              p:after="r[@uid='{EAE28641-6E30-41F0-9FDC-B5AB41CB0F46}']"
+              s:ds=""
+              s:id="{99A633FC-B9A9-44A0-B78A-BCBB08DD02C9}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BEFCF44B9-5493-4884-94E2-FD1E70322007%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+              s:ph="/main/container-1/row-2-2" />
+            <r
+              uid="{EE4E991B-80D7-4ED3-BD02-AE2331A27B39}"
+              p:after="r[@uid='{10FE8BA7-6D5E-4C91-AEF5-4CFF56E515CE}']"
+              s:ds="local:/Data/FAQs accordion"
+              s:id="{DEE8DDA7-AF00-48F6-9C60-19AB73EBA80D}"
+              s:par="EasingFunction=Swing&amp;Speed=500&amp;CanOpenMultiple=1&amp;CanToggle=1&amp;ExpandedByDefault&amp;ExpandOnHover&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+              s:ph="/main/container-1/row-2-2" />
+            <r
+              uid="{4C3B99B2-426D-4794-BCA5-152D180B5FDB}"
+              p:after="r[@uid='{EE4E991B-80D7-4ED3-BD02-AE2331A27B39}']"
+              s:ds=""
+              s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+              s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=2"
+              s:ph="/main/container-1" />
+            <r
+              uid="{E5260DB7-810A-4CF0-81F2-186048C5EE68}"
+              p:after="*[1=2]"
+              s:ds=""
+              s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+              s:ph="main" />
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T125104Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: HackathonSite
+    - ID: "d0cbc508-69ae-41c0-a45f-55f4ede36311"
+      Hint: Title
+      Value: FAQs

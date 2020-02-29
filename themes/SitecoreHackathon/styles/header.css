@@ -1,0 +1,41 @@
+#header {
+  background-color: #232323;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+#header .row-splitter .column-splitter > div:nth-child(2) .row .image .component-content a {
+  height: 80px;
+  width: 80px;
+}
+
+#header .row-splitter .column-splitter > div:nth-child(2) .row .image .component-content a img {
+  -o-object-fit: contain;
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  -o-object-position: center;
+  object-position: center;
+}
+
+#header .row-splitter .column-splitter > div:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#header .row-splitter .column-splitter > div:first-child .row {
+  width: 100%;
+}
+
+#header .row-splitter .column-splitter > div:first-child .row .component-content nav a {
+  color: #fff;
+}
+
+#header .row-splitter .column-splitter > div:first-child .row .component-content nav a:focus, #header .row-splitter .column-splitter > div:first-child .row .component-content nav a:hover {
+  color: #19a5a2;
+}

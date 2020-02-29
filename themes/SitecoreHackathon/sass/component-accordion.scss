@@ -13,14 +13,13 @@
     .active {
         .toggle-header {
             .field-heading:before {
-                content: $fa-var-minus-square !important;
+                //content: $fa-var-minus-square !important;
             }
         }
     }
     .toggle-header {
         cursor: pointer;
         background-color: $accordion-header-bg;
-        @include border-basic(bottom);
         &:hover {
             background-color: $accordion-header-bg-active;
         }
@@ -31,14 +30,17 @@
             }
             .field-heading {
                 font-size: $accordion-header;
-                padding-left: 34px;
+                padding-left: 0px;
+                padding-right: 34px;
                 font-weight: normal;
+                font-size: 2em;
+                font-weight: bold;
                 &:before {
-                    @include fa-icon();
+                    //@include fa-icon();
                     font-size: 20px;
                     position: absolute;
                     display: block;
-                    content: $fa-var-plus-square;
+                    //content: $fa-var-plus-square;
                     top: 50%;
                     left: 10px;
                     transform: translateY(-50%);
@@ -55,6 +57,8 @@
             background: transparent;
             position: relative;
             z-index: 3;
+            display: flex;
+            align-items: center;
         }
     }
     .toggle-content {
@@ -66,11 +70,38 @@
         }
     }
     .items {
-        overflow: hidden;
+        //overflow: hidden;
     }
     .item {
-        &:last-child {
-            border-bottom: none;
+        position: relative;
+        border-radius: 0px;
+        box-shadow: $sc-box-shadow;
+        margin-bottom: 24px;
+        padding: 12px 38px;
+        overflow: hidden;
+        transition: box-shadow 0.3s ease;
+        &:first-child {
+          margin-top: 24px;
+        }
+        &::before {
+            opacity: 0;
+            content: "";
+            height: 0%;
+            width: 12px;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            background-color: $sc-red;
+            transition: 0.8s ease;
+        }
+        &:hover {
+          
+        }
+        &.active {
+            &::before {
+                opacity: 1;
+                height: 100%;
+            }
         }
     }
 }

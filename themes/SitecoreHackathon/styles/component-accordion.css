@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* breakpoints */
 .on-page-editor .accordion .toggle-content [scfieldtype="rich text"] {
   display: block;
@@ -9,16 +8,9 @@
   margin-bottom: 10px;
 }
 
-.accordion .active .toggle-header .field-heading:before {
-  content: "" !important;
-}
-
 .accordion .toggle-header {
   cursor: pointer;
   background-color: transparent;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #d2d2d2;
 }
 
 .accordion .toggle-header:hover {
@@ -35,21 +27,17 @@
 
 .accordion .toggle-header .component .field-heading {
   font-size: 16px;
-  padding-left: 34px;
+  padding-left: 0px;
+  padding-right: 34px;
   font-weight: normal;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .accordion .toggle-header .component .field-heading:before {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   font-size: 20px;
   position: absolute;
   display: block;
-  content: "";
   top: 50%;
   left: 10px;
   -webkit-transform: translateY(-50%);
@@ -66,6 +54,12 @@
   background: transparent;
   position: relative;
   z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .accordion .toggle-header .label:after {
@@ -89,12 +83,37 @@
   margin-top: 0;
 }
 
-.accordion .items {
+.accordion .item {
+  position: relative;
+  border-radius: 0px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+  padding: 12px 38px;
   overflow: hidden;
+  -webkit-transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
 }
 
-.accordion .item:last-child {
-  border-bottom: none;
+.accordion .item:first-child {
+  margin-top: 24px;
+}
+
+.accordion .item::before {
+  opacity: 0;
+  content: "";
+  height: 0%;
+  width: 12px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background-color: #fe2911;
+  -webkit-transition: 0.8s ease;
+  transition: 0.8s ease;
+}
+
+.accordion .item.active::before {
+  opacity: 1;
+  height: 100%;
 }
 
 /* breakpoints */

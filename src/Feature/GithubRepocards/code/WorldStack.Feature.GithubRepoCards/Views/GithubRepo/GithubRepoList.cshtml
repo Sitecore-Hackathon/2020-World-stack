@@ -4,27 +4,58 @@
 
 @if (Model != null)
 {
-    <div class="swiper-container">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-            <!-- Slides -->
-
-            @foreach (var repo in Model.Repositories)
-            {
-                <div class="github-card">
-                    <a href="@repo.Url">
-                        <span> @repo.UserName</span>
-                        <span> @repo.Description</span>
-                    </a>
+<div class="component section hackathon-teams">
+    <div class="component-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="field-title">
+                        <h2>Hackathon Teams</h2>
+                    </div>
                 </div>
-            }
+            </div>
+            <div class="row">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        @foreach (var repo in Model.Repositories)
+                        {
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 swiper-slide @(repo.isWinningTeam ? "winner" : "")  ">
+                            <a target="_blank" href="@repo.HtmlUrl">
+                                <div class="github-card"  data-tilt data-tilt-reverse="true" data-tilt-scale="1.1" data-tilt-perspective="300">
+                                    <div class="card-container">
+                                        <div class="info">
+                                            <div class="fork-count">
+                                                <span> @repo.ForkCount</span>
+                                            </div>
+                                            <div class="stars-count">
+                                                <span> @repo.StarsCount</span>
+                                            </div>
+                                        </div>
+                                        <div class="description">
+                                            <span> @repo.Description</span>
+                                        </div>
+                                        <div class="last-push">
+                                            @repo.LastPush
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        }
+                    </div>
+                    <div class="swiper-nav">
+                        <div class="custom-arrow custom-arrow-left"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="custom-arrow custom-arrow-right"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </div>
+</div>
 }
 else
 {
     //TODO: Show messages when repositories return null from Github
 }
-
 

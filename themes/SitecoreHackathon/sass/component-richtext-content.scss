@@ -2,7 +2,7 @@
 @import "abstracts/mixins";
 .content, .rich-text {
     background: $rich-content-bg;
-    color: $text-basic;
+    color: $sc-black;
     border: $rich-content-border;
     line-height: 1.5;
     font-size: 12px;

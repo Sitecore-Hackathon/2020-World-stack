@@ -5,10 +5,8 @@
 }
 
 .navigation .level1 > .navigation-title > a, .navigation .level0 > .navigation-title > a {
-  font-size: 18px;
-  border-color: #89C6CC;
-  border-style: solid;
-  border-width: 0 0 2px 0;
+  font-size: 14px;
+  font-weight: bold;
   padding-right: 3px;
   margin-right: 5px;
 }
@@ -18,34 +16,80 @@
 }
 
 .navigation a {
-  color: #747474;
+  color: #232323;
 }
 
 .lt-ie9 .navigation a, .lt-ie9 .navigation a span {
-  color: #747474;
+  color: #232323;
 }
 
 .navigation a:focus, .navigation a:hover {
-  color: #747474;
-}
-
-.navigation li.submenu {
-  margin-bottom: 0;
+  color: #19a5a2;
 }
 
 .navigation li > .navigation-title > a {
-  padding: 3px 5px 3px 0;
-  display: block;
-  color: #747474;
-  text-decoration: none;
+  color: #232323;
 }
 
 .navigation li > ul a {
   font-size: 14px;
 }
 
-.navigation .submenu > ul {
-  padding-left: 10px;
+.navigation nav > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.navigation nav > ul li.submenu {
+  position: relative;
+}
+
+.navigation nav > ul li.submenu > ul {
+  padding: 6px;
+  position: absolute;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 6px;
+  z-index: 1;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.navigation nav > ul li.submenu > ul.active {
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%);
+  opacity: 1;
+  pointer-events: all;
+}
+
+.navigation nav > ul li.submenu > ul > li {
+  padding: 8px 0px;
+  font-weight: bold;
+}
+
+.navigation nav > ul li.submenu > ul > li .navigation-title a:not(:hover) {
+  color: #232323 !important;
 }
 
 /* breakpoints */

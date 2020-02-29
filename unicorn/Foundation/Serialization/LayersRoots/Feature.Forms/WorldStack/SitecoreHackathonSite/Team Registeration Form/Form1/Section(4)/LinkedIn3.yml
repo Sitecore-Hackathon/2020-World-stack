@@ -1,0 +1,35 @@
+﻿---
+ID: "eaa7c4e0-f264-41d4-8145-c71bdd80ea19"
+Parent: "6be894eb-1988-4656-9680-fda2100597a6"
+Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
+Path: /sitecore/Forms/Feature/WorldStack/SitecoreHackathonSite/Team Registeration Form/Form1/Section(4)/LinkedIn3
+DB: master
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: ADA952E9529D4A7DB4DBC03A5B63F0D7
+- ID: "9f7da002-7b86-436b-8dda-7efe5837b88e"
+  Hint: Min Length
+  Value: 0
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T210222Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "71ffd7b2-8b09-4f7b-8a66-1e4cef653e8d"
+      Hint: Title
+      Value: LinkedIn
