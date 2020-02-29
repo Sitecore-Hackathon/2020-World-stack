@@ -1,5 +1,8 @@
 .hackathon-teams {
+  padding-top: 56px;
+  padding-bottom: 56px;
   width: 100%;
+  background-color: #F5F5F5;
 }
 
 .hackathon-teams .component-content .container .row:nth-child(1) > div .field-title {
@@ -129,4 +132,34 @@
   bottom: 0px;
   right: 0px;
   padding: 4px 8px;
+}
+
+.hackathon-teams .component-content .container .row:nth-child(2) .swiper-container .swiper-wrapper .swiper-slide .github-card .card-container .last-push::before {
+  content: "";
+  height: 14px;
+  width: 14px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../images/icons/github/time.svg);
+  display: inline-block;
+  -webkit-transform: translateY(4px);
+  -ms-transform: translateY(4px);
+  transform: translateY(4px);
+}
+
+.hackathon-teams .component-content .container .row:nth-child(2) .swiper-container .swiper-wrapper .swiper-slide.winner .github-card {
+  box-shadow: 0 2px 14px 0 rgba(25, 165, 162, 0.3);
+}
+
+.hackathon-teams .component-content .container .row:nth-child(2) .swiper-container .swiper-wrapper .swiper-slide.winner .github-card::after {
+  content: "";
+  height: 50px;
+  width: 50px;
+  left: 10px;
+  top: 10px;
+  position: absolute;
+  opacity: 0.3;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../images/icons/github/cup.svg);
 }

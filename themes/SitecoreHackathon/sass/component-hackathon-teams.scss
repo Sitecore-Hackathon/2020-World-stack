@@ -1,6 +1,9 @@
 @import "abstracts/vars";
 .hackathon-teams {
+    padding-top: 56px;
+    padding-bottom: 56px;
     width: 100%;
+    background-color: $sc-light-grey;
     .component-content {
         .container {
             .row {
@@ -104,6 +107,33 @@
                                             bottom: 0px;
                                             right: 0px;
                                             padding: 4px 8px;
+                                            &::before {
+                                                content: "";
+                                                height: 14px;
+                                                width: 14px;
+                                                background-size: contain;
+                                                background-repeat: no-repeat;
+                                                background-image: url(../images/icons/github/time.svg);
+                                                display: inline-block;
+                                                transform: translateY(4px);
+                                            }
+                                        }
+                                    }
+                                }
+                                &.winner {
+                                    .github-card {
+                                        box-shadow: 0 2px 14px 0 rgba(25, 165, 162, 0.3);
+                                        &::after {
+                                            content: "";
+                                            height: 50px;
+                                            width: 50px;
+                                            left: 10px;
+                                            top: 10px;
+                                            position: absolute;
+                                            opacity: 0.3;
+                                            background-size: contain;
+                                            background-repeat: no-repeat;
+                                            background-image: url(../images/icons/github/cup.svg);
                                         }
                                     }
                                 }
