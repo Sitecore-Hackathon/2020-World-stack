@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldStack.HackathonSite", "src\Project\HackathonSite\code\WorldStack.HackathonSite\WorldStack.HackathonSite\WorldStack.HackathonSite.csproj", "{0F099059-9CEA-4AF3-82ED-77612A526FEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{4280B072-FF3B-43F9-A610-572CC7CA6955}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{80247F4D-DA53-45F0-8B7C-EA9E62ADC2DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{5C84B4CC-E364-48E9-B703-F64331CFDD14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HackathonSite", "HackathonSite", "{C2A355F9-C3FC-490D-882E-7FF9FCE74BBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{588D1F3D-4218-4674-8159-C32FEB45B0F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldStack.Foundation.Extensions", "src\Foundation\Extensions\code\WorldStack.Extensions\WorldStack.Foundation.Extensions.csproj", "{A4533FA8-E973-45C9-92E6-3F28B8E5B867}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search", "Search", "{02A87D5A-86A9-45EC-8DA2-3E1A3E32E269}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldStack.Foundation.Search", "src\Foundation\Search\code\WorldStack.Foundation.Search\WorldStack.Foundation.Search.csproj", "{0C9909DE-9A3A-413E-B6D7-F2604C69E4FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{CB3B5459-F971-408D-8C55-025350299ABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldStack.Foundation.Serialization", "src\Foundation\Serialization\code\WorldStack.Foundation.Serialization\WorldStack.Foundation.Serialization.csproj", "{3623C952-AAA7-4B5B-8C08-C15D3CCB9ED3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Github", "Github", "{4CB7BA9A-39C1-40ED-B57A-ADF052C557ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldStack.Foundation.Github", "src\Foundation\Github\code\WorldStack.Foundation.Github\WorldStack.Foundation.Github.csproj", "{F44B931D-72BB-41B0-ABF4-5FADD381E910}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{CD41115D-FE47-4AA8-94B2-588F3B8BEEF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldStack.Foundation.Forms", "src\Foundation\Forms\code\WorldStack.Foundations.Forms\WorldStack.Foundation.Forms.csproj", "{EB2CF7A1-C40B-4E9B-A611-74E66C07077B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GithubRepocards", "GithubRepocards", "{B2492C3E-506E-45DD-AFAB-8E5B657B520C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldStack.Feature.GithubRepoCards", "src\Feature\GithubRepocards\code\WorldStack.Feature.GithubRepoCards\WorldStack.Feature.GithubRepoCards.csproj", "{7D8E7D63-B307-488F-BE59-767B2054C377}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F099059-9CEA-4AF3-82ED-77612A526FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F099059-9CEA-4AF3-82ED-77612A526FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F099059-9CEA-4AF3-82ED-77612A526FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F099059-9CEA-4AF3-82ED-77612A526FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4533FA8-E973-45C9-92E6-3F28B8E5B867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4533FA8-E973-45C9-92E6-3F28B8E5B867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4533FA8-E973-45C9-92E6-3F28B8E5B867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4533FA8-E973-45C9-92E6-3F28B8E5B867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9909DE-9A3A-413E-B6D7-F2604C69E4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9909DE-9A3A-413E-B6D7-F2604C69E4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9909DE-9A3A-413E-B6D7-F2604C69E4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9909DE-9A3A-413E-B6D7-F2604C69E4FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3623C952-AAA7-4B5B-8C08-C15D3CCB9ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3623C952-AAA7-4B5B-8C08-C15D3CCB9ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3623C952-AAA7-4B5B-8C08-C15D3CCB9ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3623C952-AAA7-4B5B-8C08-C15D3CCB9ED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F44B931D-72BB-41B0-ABF4-5FADD381E910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44B931D-72BB-41B0-ABF4-5FADD381E910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44B931D-72BB-41B0-ABF4-5FADD381E910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44B931D-72BB-41B0-ABF4-5FADD381E910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB2CF7A1-C40B-4E9B-A611-74E66C07077B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2CF7A1-C40B-4E9B-A611-74E66C07077B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2CF7A1-C40B-4E9B-A611-74E66C07077B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2CF7A1-C40B-4E9B-A611-74E66C07077B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D8E7D63-B307-488F-BE59-767B2054C377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8E7D63-B307-488F-BE59-767B2054C377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8E7D63-B307-488F-BE59-767B2054C377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8E7D63-B307-488F-BE59-767B2054C377}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F099059-9CEA-4AF3-82ED-77612A526FEA} = {C2A355F9-C3FC-490D-882E-7FF9FCE74BBA}
+		{C2A355F9-C3FC-490D-882E-7FF9FCE74BBA} = {5C84B4CC-E364-48E9-B703-F64331CFDD14}
+		{588D1F3D-4218-4674-8159-C32FEB45B0F3} = {80247F4D-DA53-45F0-8B7C-EA9E62ADC2DE}
+		{A4533FA8-E973-45C9-92E6-3F28B8E5B867} = {588D1F3D-4218-4674-8159-C32FEB45B0F3}
+		{02A87D5A-86A9-45EC-8DA2-3E1A3E32E269} = {80247F4D-DA53-45F0-8B7C-EA9E62ADC2DE}
+		{0C9909DE-9A3A-413E-B6D7-F2604C69E4FB} = {02A87D5A-86A9-45EC-8DA2-3E1A3E32E269}
+		{CB3B5459-F971-408D-8C55-025350299ABB} = {80247F4D-DA53-45F0-8B7C-EA9E62ADC2DE}
+		{3623C952-AAA7-4B5B-8C08-C15D3CCB9ED3} = {CB3B5459-F971-408D-8C55-025350299ABB}
+		{4CB7BA9A-39C1-40ED-B57A-ADF052C557ED} = {80247F4D-DA53-45F0-8B7C-EA9E62ADC2DE}
+		{F44B931D-72BB-41B0-ABF4-5FADD381E910} = {4CB7BA9A-39C1-40ED-B57A-ADF052C557ED}
+		{CD41115D-FE47-4AA8-94B2-588F3B8BEEF8} = {80247F4D-DA53-45F0-8B7C-EA9E62ADC2DE}
+		{EB2CF7A1-C40B-4E9B-A611-74E66C07077B} = {CD41115D-FE47-4AA8-94B2-588F3B8BEEF8}
+		{B2492C3E-506E-45DD-AFAB-8E5B657B520C} = {4280B072-FF3B-43F9-A610-572CC7CA6955}
+		{7D8E7D63-B307-488F-BE59-767B2054C377} = {B2492C3E-506E-45DD-AFAB-8E5B657B520C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C19C3BCD-78D9-4195-A60E-9F64FEFD86D6}
+	EndGlobalSection
+EndGlobal
