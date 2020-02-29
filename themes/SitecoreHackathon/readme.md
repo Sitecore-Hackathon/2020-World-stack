@@ -1,3 +1,8 @@
+#
+World stack custom theme
+
+We created this theme for Hackathon website, created from SXA/CLI. So far Accordion, Title and Navigation component has been customized.
+
 ##
 Boilerplate for creating new theme for you Sitecore site. 
 
