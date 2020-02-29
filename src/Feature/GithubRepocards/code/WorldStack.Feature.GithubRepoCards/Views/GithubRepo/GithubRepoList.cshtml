@@ -2,21 +2,29 @@
 
 @model  WorldStack.Feature.GithubRepoCards.Models.GithubRepoRenderingModel
 
-<div class="swiper-container">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-        <!-- Slides -->
-        
-        @foreach (var repo in Model.Repositories)
-        {
-            <div class="github-card">
-                <a href="@repo.Url">
-                    <span> @repo.UserName</span>
-                    <span> @repo.Description</span>
-                </a>
-            </div>
-        }
+@if (Model != null)
+{
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+
+            @foreach (var repo in Model.Repositories)
+            {
+                <div class="github-card">
+                    <a href="@repo.Url">
+                        <span> @repo.UserName</span>
+                        <span> @repo.Description</span>
+                    </a>
+                </div>
+            }
+        </div>
+
     </div>
-   
-</div>
+}
+else
+{
+    //TODO: Show messages when repositories return null from Github
+}
+
 

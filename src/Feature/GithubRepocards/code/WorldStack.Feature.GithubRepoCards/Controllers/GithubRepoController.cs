@@ -25,6 +25,10 @@ namespace WorldStack.Feature.GithubRepoCards.Controllers
         public ActionResult GetGithubRepoList()
         {
             var keyword = RenderingContext.Current.Rendering.Parameters[Templates.RenderingKeywordPrefix_Param];
+            var winningTeams = RenderingContext.Current.Rendering.Parameters[Templates.RenderingWinningTeamPrefix_Param];
+            if (string.IsNullOrEmpty(keyword))
+                return View("~/Views/GithubRepo/GithubRepoList.cshtml", null);
+
             var model = new Models.GithubRepoRenderingModel()
             {
                 Repositories = _repository.GetGithubDetailsUsingName(keyword)

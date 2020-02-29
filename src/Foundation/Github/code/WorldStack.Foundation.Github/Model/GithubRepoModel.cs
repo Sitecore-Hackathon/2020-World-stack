@@ -19,5 +19,14 @@ namespace WorldStack.Foundation.Github.Model
         public string Url { get; set; }
 
         public int StarsCount { get; set; }
+
+        /// <summary>
+        /// formated DateTime
+        /// </summary>
+        public string LastPush { get; set; }
+
+        public string HtmlUrl { get; set; }
+
+        public bool isWinningTeam { get; set; } = false;
     }
 }

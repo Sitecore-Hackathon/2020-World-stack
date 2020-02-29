@@ -11,5 +11,7 @@ namespace WorldStack.Feature.GithubRepoCards
     public static class Templates
     {
         public static string RenderingKeywordPrefix_Param = "KeywordPrefix";
+
+        public static string RenderingWinningTeamPrefix_Param = "WinningTeams";
     }
 }
