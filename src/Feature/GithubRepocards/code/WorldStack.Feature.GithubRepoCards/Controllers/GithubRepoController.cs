@@ -31,7 +31,7 @@ namespace WorldStack.Feature.GithubRepoCards.Controllers
 
             var model = new Models.GithubRepoRenderingModel()
             {
-                Repositories = _repository.GetGithubDetailsUsingName(keyword)
+                Repositories = _repository.GetGithubDetailsUsingName(keyword, winningTeams)
             };
             return View("~/Views/GithubRepo/GithubRepoList.cshtml", model);
         }
