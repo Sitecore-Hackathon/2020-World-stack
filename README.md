@@ -1,38 +1,53 @@
-![Hackathon Logo](documentation/images/hackathon.png?raw=true "Hackathon Logo")
+**Sitecore Hackathon**
 
-# Submission Boilerplate
+**Team:** WorldStack
+**Topic chosen:** Sitecore Hackathon Website
+**Purpose to choose** : We found hackathon site to be really interesting to work on as we found so many ideas on how to improve it.
 
-Welcome to Sitecore Hackathon 2020.
+This site has developed using Sitecore 9.3 and with below list of features.
 
-The Hackathon site can be found at http://www.sitecorehackathon.org/sitecore-hackathon-2020/
+1. Sitecore Helix Solution Structure
+2. SxA Theme development
+3. SxA Pages and Components
+4. Sitecore Form integration
+5. Unicorn Integration
+6. External API (GitHub) client to get repository details
+7. Swiper/Vanilla Tilt JS
 
-The purpose of this repository is to provide a sample which shows how to structure the Hackathon submissions.
+**Pages:**
 
+**Home Page**
 
-## Entry Submission Requirements 
+This is main page for the site, it displays all the important information regarding Sitecore Hackathon.
 
-All teams are required to submit the following as part of their entry submission on or before the end of the Hackathon on **Saturday  February 29th 2020 at 8PM EST**. The modules should be based on [Sitecore 9.3 (Initial Release)](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/93/Sitecore_Experience_Platform_93_Initial_Release.aspx).
+**Hackathon Pages**
 
-**Failure to meet any of the requirements will result in automatic disqualification.** Please reach out to any of the organisers or judges if you require any clarification.
+These pages display the information of the previous Sitecore hackathons.
 
-- Sitecore 9.3 (Initial Release) Module (Module install package)
-   - An installation Sitecore Package (`.zip` or `.update`)
+**Registration Form**
 
-- Module code in a public Git source repository. We will be judging (amongst other things):
-  - Cleanliness of code
-  - Commenting where necessary
-  - Code Structure
-  - Standard coding standards & naming conventions
+This form allows to register for the current year&#39;s hackathon.
 
-- Precise and Clear Installation Instructions document (1 – 2 pages)
-- Module usage documentation on [Readme.md](documentation) file on the Git Repository (2 – 5 pages)
-  - Module Purpose
-  - Module Sitecore Hackathon Category
-  - How does the end user use the Module?
-  - Screenshots, etc.
+**Components:**
 
-- Create a 2 – 10 minutes video explaining the module’s functionality (A link to youtube video)
+**GitHub Cards**
 
-  - What problem was solved
-  - How did you solve it
-  - What is the end result
+A dynamic component that lists all the repositories within an account. It filters repositories based on Name (ex: &#39;2020-&#39; will list all the repos prefixed with 2020). It shows information regarding last updated, forks, stars etc. There is a rendering property through which winning teams can be highlighted.
+It requires accessToken from Github in order to access Github Client api. Please update it in WorldStack.Feature.GithubRepo.config
+
+**FAQs**
+
+This page provides with the most frequently asked questions and their answers in a cool way.
+
+**Customization of SxA Components**
+
+Customization of SxA header, footer, Navigation, Accordion and Title. They inherit a new set of styles that corresponds to Sitecore Hackathon colors.
+
+**Future Work**
+
+We are aiming to extend the Sitecore Hackathon site with the following features:
+
+1. Provide an interactive map to show the teams geographically
+2. Provide a board for the judges to automate the scoring process and to select the top winners
+3. Provide an automatic emailing system (notifications) using custom contact list and Email Exp Manager
+4. Feature to search Sitecore Hackathon Github Repo especially code lines using Github client which will be very useful for Sitecore developers ( Server code created in Foundations )
