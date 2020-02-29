@@ -24,7 +24,6 @@ jQuery(document).ready(function($) {
       });
 
       $(document).on("click", function(e) {
-          console.log($(e.target).hasClass("active"))
           if (!$(e.target).hasClass("active") && !$(e.target).closest("li").hasClass("submenu")){
             close($(".clearfix.active"));
           };
