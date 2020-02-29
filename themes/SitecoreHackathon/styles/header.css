@@ -28,6 +28,10 @@
   align-items: center;
 }
 
+#header .row-splitter .column-splitter > div:first-child .row {
+  width: 100%;
+}
+
 #header .row-splitter .column-splitter > div:first-child .row .component-content nav a {
   color: #fff;
 }

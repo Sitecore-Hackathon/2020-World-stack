@@ -1,5 +1,4 @@
 jQuery(document).ready(function($) {
-    console.log("hello")
     $(".component.navigation").each(function(){
       var submenuLink = $(this).find("li.submenu");
   
@@ -12,7 +11,6 @@ jQuery(document).ready(function($) {
       }
   
       submenuLink.click(function(){
-        console.log($(this).find("ul:first"))
         var list = $(this).find("ul:first");
         openList(list);
       });
@@ -26,8 +24,8 @@ jQuery(document).ready(function($) {
       });
 
       $(document).on("click", function(e) {
-          if (!$(e.target).hasClass(".clearfix.active") || !$(e.target).parent().hasClass(".submenu")){
-            console.log("true");
+          console.log($(e.target).hasClass("active"))
+          if (!$(e.target).hasClass("active") && !$(e.target).closest("li").hasClass("submenu")){
             close($(".clearfix.active"));
           };
       });

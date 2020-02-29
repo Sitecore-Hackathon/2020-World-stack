@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    @include montserrat-font-stack();
+    @include avenir-font-stack();
     position: relative;
     overflow: auto;
     color: $sc-black;
@@ -29,6 +29,7 @@ a {
     cursor: pointer;
     font-size: 0.85em;
     transition: color 0.3s ease;
+    text-decoration: none;
     &:hover {
         color: $sc-light-blue;
     }
