@@ -1,0 +1,19 @@
+﻿---
+ID: "b027f4b4-326a-469f-b93e-fd89ef3c239b"
+Parent: "9814ab61-b97f-4425-b133-101277acb036"
+Template: "59aa313d-90c3-4813-976d-ce440e1c9b10"
+Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Data/Search/Load More
+DB: master
+BranchID: "957565a0-bf0d-4f8b-bf2c-4a8f40ec9080"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{AFCB1730-FA8A-4301-AB3C-3C019D6EF9B2}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101103Z

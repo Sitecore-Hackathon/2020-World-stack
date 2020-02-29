@@ -1,0 +1,26 @@
+﻿---
+ID: "b1b3fb55-b8a1-4383-b590-ec604d117544"
+Parent: "f375aacf-e27f-4d1e-ac8a-6884bb8b5bf4"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/WorldStack/RenderingParameters/RegistrationForm Rendering Parameter
+DB: master
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{8CA06D6A-B353-44E8-BC31-B528C7306971}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{7184F6E0-33C3-4DC2-953E-B74F0477FB72}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T093356Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

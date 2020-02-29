@@ -1,0 +1,25 @@
+﻿---
+ID: "3b94d45d-6185-408d-81c4-6ea7c7108415"
+Parent: "7999807a-e5ce-494d-9710-613cfab63ec5"
+Template: "7999807a-e5ce-494d-9710-613cfab63ec5"
+Path: /sitecore/templates/Project/WorldStack/Page Design Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {7999807A-E5CE-494D-9710-613CFAB63EC5}
+    {B9E7E162-8CAB-45F6-9293-D92C51D51EC7}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T100408Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

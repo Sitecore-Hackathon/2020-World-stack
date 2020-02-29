@@ -1,0 +1,22 @@
+﻿---
+ID: "b91812ad-9af4-459b-b3a6-320918d12b76"
+Parent: "9d65f744-3078-438c-9ba7-90111e27bd17"
+Template: "d59fdda2-5639-4bca-856b-08451c195d10"
+Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Presentation/Partial Designs/PageFooter
+DB: master
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: pagefooter
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T104125Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,14 @@
+﻿---
+ID: "074ef88d-dfe8-48fa-b20c-4feff9d3ff1d"
+Parent: "c086d7c1-1245-47bf-baf9-728f0230b6aa"
+Template: "456067df-fc7d-4639-9177-41f69e81c927"
+Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Settings/Twitter Apps
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101100Z

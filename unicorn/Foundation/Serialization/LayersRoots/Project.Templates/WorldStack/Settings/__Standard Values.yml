@@ -1,0 +1,14 @@
+﻿---
+ID: "97d34828-d4ea-419e-b7a6-7bff49dd7533"
+Parent: "4da8b9e5-c51d-4d8f-a35d-12f15c3e3c5a"
+Template: "4da8b9e5-c51d-4d8f-a35d-12f15c3e3c5a"
+Path: /sitecore/templates/Project/WorldStack/Settings/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T100408Z
