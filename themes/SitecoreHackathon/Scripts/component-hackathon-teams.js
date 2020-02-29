@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
     } else {
         allowTouchMove = false;
     }
-    var component = $(".component-hackathon-teams");
+    var component = $(".hackathon-teams");
     var slider = new Swiper (component.find(".swiper-container"), {
         direction: 'horizontal',
         loop: false,

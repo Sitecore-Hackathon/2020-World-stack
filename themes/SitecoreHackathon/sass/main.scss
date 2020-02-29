@@ -123,6 +123,7 @@ h6 {
             &.swiper-pagination-bullets-dynamic {
                 white-space: nowrap;
                 height: 18px;
+                padding-top: 4px;
                 .swiper-pagination-bullet {
                     &:not(.swiper-pagination-bullet-active-main) {
                         transform: scale(0.66);
@@ -153,6 +154,7 @@ h6 {
             margin: 0px 18px;
             background: $sc-red;
             opacity: 1;
+            transition: 0.3s ease;
             @include sm-max {
               margin: 0px 9px;
             }
