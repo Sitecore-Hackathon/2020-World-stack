@@ -123,3 +123,10 @@
   -webkit-transform: translateZ(0px);
   transform: translateZ(0px);
 }
+
+.hackathon-teams .component-content .container .row:nth-child(2) .swiper-container .swiper-wrapper .swiper-slide .github-card .card-container .last-push {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 4px 8px;
+}

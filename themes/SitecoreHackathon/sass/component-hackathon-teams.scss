@@ -99,6 +99,12 @@
                                             transform-style: preserve-3d;
                                             transform: translateZ(0px);
                                         }
+                                        .last-push {
+                                            position: absolute;
+                                            bottom: 0px;
+                                            right: 0px;
+                                            padding: 4px 8px;
+                                        }
                                     }
                                 }
                             }
