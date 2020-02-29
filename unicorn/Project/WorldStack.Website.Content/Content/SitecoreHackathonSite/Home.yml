@@ -1,0 +1,31 @@
+﻿---
+ID: "a6beb605-f5df-4ef9-a2e8-e956ca73b3d3"
+Parent: "873ffcea-eeee-454b-bec1-7a97d94e04eb"
+Template: "ad44870c-29b7-4270-8bd8-b8bb0e8714c2"
+Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Home
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {CC56C37F-CCD4-493A-AF22-B2486C07C7A4}
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+    {D5274BFC-2850-4DD6-A908-EBF946C25B3F}
+    {1666ACC2-5391-401C-9716-D43D535DF7CA}
+    {82DD2AA6-CF21-4C0A-86F8-7A7983731D97}
+    {180A72B1-832D-4AAF-9A0C-1DA5B267D42B}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{92EB9EFB-88D4-4089-82BE-AAD92D4FA24E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101013Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: SitecoreHackathonSite

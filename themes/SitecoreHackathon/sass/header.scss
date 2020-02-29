@@ -1,0 +1,48 @@
+@import "abstracts/vars";
+#header {
+    background-color: $sc-black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-shadow: $sc-box-shadow;
+    .row-splitter {
+        .column-splitter {
+            > div {
+                &:nth-child(2) {
+                    .row {
+                        .image {
+                            .component-content {
+                                a {
+                                    height: 80px;
+                                    width: 80px;
+                                    img {
+                                        object-fit: contain;
+                                        height: 100%;
+                                        width: 100%;
+                                        object-position: center;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &:first-child {
+                    display: flex;
+                    align-items: center;
+                    .row {
+                        width: 100%;
+                        .component-content {
+                            nav {
+                                a {
+                                    color: $sc-white;
+                                    &:focus, &:hover {
+                                        color: $sc-light-blue;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

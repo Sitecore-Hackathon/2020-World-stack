@@ -1,0 +1,22 @@
+﻿---
+ID: "9c557e79-83df-4eeb-82f6-bb0a527be50b"
+Parent: "0bd0d915-6768-4954-af01-4ae0a869fe8d"
+Template: "0bd0d915-6768-4954-af01-4ae0a869fe8d"
+Path: /sitecore/templates/Project/WorldStack/Partial Design Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {0BD0D915-6768-4954-AF01-4AE0A869FE8D}
+    {D59FDDA2-5639-4BCA-856B-08451C195D10}
+    {C2A8E276-1757-4957-9DD5-8669B79FD80D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T100408Z

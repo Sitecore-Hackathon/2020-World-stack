@@ -1,0 +1,108 @@
+@import "abstracts/mixins";
+@import "abstracts/vars";
+@import "base/fontawesome/font-awesome-mix-var";
+.on-page-editor {
+    .accordion .toggle-content [scfieldtype="rich text"] {
+        display: block;
+    }
+}
+
+.accordion {
+    padding: 0;
+    margin-bottom: 10px;
+    .active {
+        .toggle-header {
+            .field-heading:before {
+                //content: $fa-var-minus-square !important;
+            }
+        }
+    }
+    .toggle-header {
+        cursor: pointer;
+        background-color: $accordion-header-bg;
+        &:hover {
+            background-color: $accordion-header-bg-active;
+        }
+        .component {
+            margin-top: 0;
+            &.title {
+                margin-top: 0;
+            }
+            .field-heading {
+                font-size: $accordion-header;
+                padding-left: 0px;
+                padding-right: 34px;
+                font-weight: normal;
+                font-size: 2em;
+                font-weight: bold;
+                &:before {
+                    //@include fa-icon();
+                    font-size: 20px;
+                    position: absolute;
+                    display: block;
+                    //content: $fa-var-plus-square;
+                    top: 50%;
+                    left: 10px;
+                    transform: translateY(-50%);
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+        .label {
+            @include clearfix;
+            padding: 7px;
+            text-align: left;
+            display: block;
+            background: transparent;
+            position: relative;
+            z-index: 3;
+            display: flex;
+            align-items: center;
+        }
+    }
+    .toggle-content {
+        padding: 10px;
+        background-color: $accordion-toggled-bg;
+        @include clearfix();
+        .component {
+            margin-top: 0;
+        }
+    }
+    .items {
+        //overflow: hidden;
+    }
+    .item {
+        position: relative;
+        border-radius: 0px;
+        box-shadow: $sc-box-shadow;
+        margin-bottom: 24px;
+        padding: 12px 38px;
+        overflow: hidden;
+        transition: box-shadow 0.3s ease;
+        &:first-child {
+          margin-top: 24px;
+        }
+        &::before {
+            opacity: 0;
+            content: "";
+            height: 0%;
+            width: 12px;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            background-color: $sc-red;
+            transition: 0.8s ease;
+        }
+        &:hover {
+          
+        }
+        &.active {
+            &::before {
+                opacity: 1;
+                height: 100%;
+            }
+        }
+    }
+}
+@import 'styles/accordion/*';

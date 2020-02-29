@@ -1,0 +1,18 @@
+﻿---
+ID: "0a91c67e-5964-4c96-b9d1-02b1991c53c8"
+Parent: "9cba88e7-36b3-48ae-88f3-94a4d04e1700"
+Template: "aca5c9a3-cda0-49b6-893f-1d4a7cb595b0"
+Path: "/sitecore/content/WorldStack/SitecoreHackathonSite/Presentation/Rendering Variants/Media Link/Icon-Name-Date and Download link/File Description/Info Wrapper/Title Group"
+DB: master
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{2EE161BB-D97B-4EF2-84AE-BE6CC4436D8B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101043Z

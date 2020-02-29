@@ -1,0 +1,147 @@
+@import "abstracts/vars";
+.hackathon-teams {
+    padding-top: 56px;
+    padding-bottom: 56px;
+    width: 100%;
+    background-color: $sc-light-grey;
+    .component-content {
+        .container {
+            .row {
+                &:nth-child(1) {
+                    > div {
+                        .field-title {
+                            margin-bottom: 24px;
+                        }
+                    }
+                }
+                &:nth-child(2) {
+                    .swiper-container {
+                        .swiper-wrapper {
+                            .swiper-slide {
+                                .github-card {
+                                    display: flex;
+                                    background-color: $sc-white;
+                                    padding: 16px;
+                                    box-shadow: $sc-box-shadow;
+                                    min-height: 150px;
+                                    color: $sc-black;
+                                    position: relative;
+                                    background: $sc-white;
+                                    transform-style: preserve-3d;
+                                    transform: translateZ(0px);
+                                    position: relative;
+                                    //background: linear-gradient(to top left, $sc-black, #9C190B);
+                                    &::before {
+                                        content: "";
+                                        height: 50%;
+                                        width: 50%;
+                                        top: -8px;
+                                        left: -8px;
+                                        background-color: $sc-red;
+                                        position: absolute;
+                                        z-index: -1;
+                                        transition: 0.8s ease;
+                                        transform-style: preserve-3d;
+                                        transform: translateZ(-6px);
+                                    }
+                                    &:hover {
+                                        transform-style: preserve-3d;
+                                        transform: translateZ(10px);
+                                        &::before {
+                                            background-color: $sc-light-blue;
+                                            transform: translateZ(-40px) scale(1.2);
+                                        }
+                                        .card-container {
+                                            .info {
+                                                transform-style: preserve-3d;
+                                                transform: translateZ(15px);
+                                            }
+                                            .description {
+                                                transform-style: preserve-3d;
+                                                transform: translateZ(0px);
+                                            }
+                                        }
+                                    }
+                                    .card-container {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        .info {
+                                            position: absolute;
+                                            top: 0px;
+                                            right: 0px;
+                                            background-color: $sc-black;
+                                            color: $sc-white;
+                                            display: flex;
+                                            padding: 4px 8px;
+                                            transform-style: preserve-3d;
+                                            transform: translateZ(0px);
+                                            .fork-count, .stars-count {
+                                                &::before {
+                                                    content: "";
+                                                    height: 10px;
+                                                    width: 10px;
+                                                    background-size: contain;
+                                                    background-repeat: no-repeat;
+                                                    background-image: url(../images/icons/github/fork.svg);
+                                                    display: inline-block;
+                                                    filter: contrast(0) brightness(100);
+                                                }
+                                            }
+                                            .fork-count {
+                                                margin-right: 8px
+                                            }
+                                            .stars-count {
+                                                &::before {
+                                                    background-image: url(../images/icons/github/like.svg);
+                                                }
+                                            }
+                                        }
+                                        .description {
+                                            font-weight: bold;
+                                            transform-style: preserve-3d;
+                                            transform: translateZ(0px);
+                                        }
+                                        .last-push {
+                                            position: absolute;
+                                            bottom: 0px;
+                                            right: 0px;
+                                            padding: 4px 8px;
+                                            &::before {
+                                                content: "";
+                                                height: 14px;
+                                                width: 14px;
+                                                background-size: contain;
+                                                background-repeat: no-repeat;
+                                                background-image: url(../images/icons/github/time.svg);
+                                                display: inline-block;
+                                                transform: translateY(4px);
+                                            }
+                                        }
+                                    }
+                                }
+                                &.winner {
+                                    .github-card {
+                                        box-shadow: 0 2px 14px 0 rgba(25, 165, 162, 0.3);
+                                        &::after {
+                                            content: "";
+                                            height: 50px;
+                                            width: 50px;
+                                            left: 10px;
+                                            top: 10px;
+                                            position: absolute;
+                                            opacity: 0.3;
+                                            background-size: contain;
+                                            background-repeat: no-repeat;
+                                            background-image: url(../images/icons/github/cup.svg);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+﻿---
+ID: "c506c43a-5f80-48ed-ad5a-d2edcd6b7d55"
+Parent: "a29f0794-10ce-405d-b0f2-70fa3e0d3df4"
+Template: "cc56c37f-ccd4-493a-af22-b2486c07c7a4"
+Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Home/HackathonSite/Previous Hackathons
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T130132Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Previous Hackathons

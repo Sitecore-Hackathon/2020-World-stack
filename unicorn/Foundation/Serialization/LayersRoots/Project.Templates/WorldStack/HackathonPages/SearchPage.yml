@@ -1,0 +1,26 @@
+﻿---
+ID: "180a72b1-832d-4aaf-9a0c-1da5b267d42b"
+Parent: "7e66e1df-cca9-4edd-a7d7-81a922159d74"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/WorldStack/HackathonPages/SearchPage
+DB: master
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{CC56C37F-CCD4-493A-AF22-B2486C07C7A4}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{7C57078C-33C7-4051-828D-ED38E62CA1E2}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101650Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

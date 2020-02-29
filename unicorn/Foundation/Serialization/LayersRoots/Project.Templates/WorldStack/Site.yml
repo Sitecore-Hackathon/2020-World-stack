@@ -1,0 +1,33 @@
+﻿---
+ID: "66c920e3-a52d-4cad-9101-ea352416bd80"
+Parent: "6d8fbb2d-8004-4c8e-bc0e-c0f8c9cddbb4"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/WorldStack/Site
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/flag_generic.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {6669DC16-F106-44B5-96BE-7A31AE82B5B5}
+    {75A9D420-5F3A-4ED8-9AEA-F58DEBB74786}
+    {DCB42A80-68C9-46F9-B036-BC44A27D96FE}
+    {3BC304DB-FE8F-4AA8-B95C-8C331E823F4C}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{B073EFB2-F3D2-4750-B604-C627B6290D47}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T100407Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

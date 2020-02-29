@@ -1,0 +1,14 @@
+﻿---
+ID: "a922d61d-5004-4631-8fd1-879ef6508e1b"
+Parent: "f212eec2-142f-407c-b27b-17ce3077385e"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Path: /sitecore/layout/Renderings/Feature/WorldStack/GithubCards
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T155833Z

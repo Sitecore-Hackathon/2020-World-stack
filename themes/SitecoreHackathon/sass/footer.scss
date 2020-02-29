@@ -1,0 +1,40 @@
+@import "abstracts/vars";
+#footer {
+    background-color: $sc-black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-shadow: $sc-box-shadow;
+    position: relative;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &::before {
+        content: "";
+        width: 100vw;
+        height: 4px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: $sc-red;
+    }
+    &::after {
+        content: "";
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        // right: -40px;
+        // bottom: -40px;
+        background-image: url(../images/logos/sitecore-logo-red.svg);
+        opacity: 0.1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .rich-text {
+        font-size: 1em;
+        font-weight: lighter;
+        color: $sc-white;
+        opacity: 0.5;
+    }
+}

@@ -1,0 +1,14 @@
+﻿---
+ID: "4b1084b1-c9e4-4b74-b7da-0e4e347265a4"
+Parent: "153b6e64-30ed-472f-9eca-6f44a494fec5"
+Template: "153b6e64-30ed-472f-9eca-6f44a494fec5"
+Path: /sitecore/templates/Project/WorldStack/Tenant/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T100407Z

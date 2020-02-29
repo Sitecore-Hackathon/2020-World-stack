@@ -1,0 +1,28 @@
+﻿---
+ID: "c718cfbe-9dfc-4f74-bdf1-792739d7c3d0"
+Parent: "985401d0-85f6-48af-b37c-e943b59c22ca"
+Template: "384f6558-5506-4d6d-9522-0354c98b5911"
+Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Presentation/Page Designs
+DB: master
+SharedFields:
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: "%7bCC56C37F-CCD4-493A-AF22-B2486C07C7A4%7d%3d%257B58C85569-8A57-456B-8C0A-6849EB567B13%257D%26%7bAD44870C-29B7-4270-8BD8-B8BB0E8714C2%7d%3d%257B58C85569-8A57-456B-8C0A-6849EB567B13%257D%26%7b1666ACC2-5391-401C-9716-D43D535DF7CA%7d%3d%257B58C85569-8A57-456B-8C0A-6849EB567B13%257D%26%7b82DD2AA6-CF21-4C0A-86F8-7A7983731D97%7d%3d%257B86432F34-3F4A-4A51-8989-C7CE312AB37E%257D"
+- ID: "c0c88e34-d7e6-46a0-b84f-b0a432d11642"
+  Hint: Theme
+  Value: "%7bFE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3%7d%3d%257B208DEB26-32B7-4D02-A8E6-FA2400C22F18%257D"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{5D5CE43E-D5C6-4C53-89BC-36285DDE8EC9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101013Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

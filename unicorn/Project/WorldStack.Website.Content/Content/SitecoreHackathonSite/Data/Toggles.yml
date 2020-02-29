@@ -1,0 +1,14 @@
+﻿---
+ID: "97e9d937-dc8d-496f-9830-a1e1504cd73f"
+Parent: "78983335-035c-45a2-8245-8feb23923e4a"
+Template: "8178b44e-b2bb-4635-85ba-b807ce420858"
+Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Data/Toggles
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101052Z

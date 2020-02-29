@@ -1,0 +1,17 @@
+﻿---
+ID: "13b09450-4a28-47fa-9125-4431888cc004"
+Parent: "a29f0794-10ce-405d-b0f2-70fa3e0d3df4"
+Template: "82dd2aa6-cf21-4c0a-86f8-7a7983731d97"
+Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Home/HackathonSite/Registration
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T130003Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Registration

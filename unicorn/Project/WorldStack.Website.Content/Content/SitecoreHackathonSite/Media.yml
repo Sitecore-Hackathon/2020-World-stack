@@ -1,0 +1,24 @@
+﻿---
+ID: "1ef1793e-e1b3-4c69-9d0b-274bc02e1e15"
+Parent: "873ffcea-eeee-454b-bec1-7a97d94e04eb"
+Template: "e8e8c94f-4248-43c3-a79f-99fbb49d78e6"
+Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Media
+DB: master
+SharedFields:
+- ID: "de8257d9-43aa-4eff-a2f4-2e9fbbd20e79"
+  Hint: AdditionalChildren
+  Type: Treelist
+  Value: |
+    {EDF3FA2E-2F4A-4003-9E3A-992E14B0377B}
+    {FCFCC0C4-637C-46D8-8177-5BDF5A939DE9}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{E2FF4516-4407-4173-8ADD-704761C15B74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101013Z

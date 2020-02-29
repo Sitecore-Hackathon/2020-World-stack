@@ -1,0 +1,21 @@
+﻿---
+ID: "bf70b96d-2fc2-4ebb-90e0-5950bfcba386"
+Parent: "5cd3e3ca-14fa-4ad4-ba3b-abde32021fae"
+Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
+Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Presentation/Rendering Variants/Page Content/Page Hackathon/Content5
+DB: master
+SharedFields:
+- ID: "4753764c-c05a-4623-841b-97f85135241c"
+  Hint: FieldName
+  Value: Content5
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T110917Z
