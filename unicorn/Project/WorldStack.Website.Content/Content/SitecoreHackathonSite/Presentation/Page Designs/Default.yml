@@ -1,0 +1,18 @@
+﻿---
+ID: "58c85569-8a57-456b-8c0a-6849eb567b13"
+Parent: "c718cfbe-9dfc-4f74-bdf1-792739d7c3d0"
+Template: "b9e7e162-8cab-45f6-9293-d92c51d51ec7"
+Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Presentation/Page Designs/Default
+DB: master
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{F484048F-2549-4BFB-8B45-917761004E06}|{9C7B4960-AF77-474A-9650-189978091D37}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101107Z

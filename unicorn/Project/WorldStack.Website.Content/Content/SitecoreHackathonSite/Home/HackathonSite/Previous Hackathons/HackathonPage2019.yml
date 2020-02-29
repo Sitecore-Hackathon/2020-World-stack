@@ -1,0 +1,123 @@
+﻿---
+ID: "e9becfc0-627d-4589-85be-6fa8562edfa9"
+Parent: "c506c43a-5f80-48ed-ad5a-d2edcd6b7d55"
+Template: "1666acc2-5391-401c-9716-d43d535df7ca"
+Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Home/HackathonSite/Previous Hackathons/HackathonPage2019
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "01529935-0d9b-4e4e-8840-b5c37196c0a5"
+      Hint: Title2
+      Value: Judges 
+    - ID: "1690769d-1445-4a1b-8ef3-cd071dd5313e"
+      Hint: Title1
+      Value: Entry Submission Requirements
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T103714Z
+    - ID: "33d56c4c-adf7-483f-8d82-e47287cde1e1"
+      Hint: Title4
+      Value: Teams
+    - ID: "422ed664-4938-4ed0-9443-bfa046434e38"
+      Hint: Title3
+      Value: Prizes
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: HackathonPage2020
+    - ID: "4f8be62a-4f39-4f74-b400-5fa39531f91a"
+      Hint: Content2
+      Value: |
+        <strong style="color: #555555; background-color: #ffffff; margin: 0px; padding: 0px; border: 0px;">Community Judges</strong>
+        <ul style="color: #555555; background-color: #ffffff; margin: 0px 0px 20px 2px; padding: 0px 0px 0px 20px; border: 0px; list-style-type: square; list-style-image: initial;">
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">Kamruz Jaman -<a rel="noopener noreferrer" href="https://twitter.com/jammykam" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;"><img alt="twitter" src="http://sitecorehackathon.org/wp-content/uploads/2014/09/twitter.png" width="18" height="14" style="margin: 0px; padding: 0px; border: none;" /></a>&nbsp;<a rel="noopener noreferrer" href="https://www.linkedin.com/in/kamruzjaman" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;"><img alt="linkedin" src="http://sitecorehackathon.org/wp-content/uploads/2014/09/linkedin.png" width="16" height="16" style="margin: 0px; padding: 0px; border: none;" /></a></li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">Anders Laub -<a rel="noopener noreferrer" href="https://twitter.com/AndersLaub" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;"><img alt="twitter" src="http://sitecorehackathon.org/wp-content/uploads/2014/09/twitter.png" width="18" height="14" style="margin: 0px; padding: 0px; border: none;" /></a>&nbsp;<a rel="noopener noreferrer" href="https://www.linkedin.com/in/anderslaub/" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;"><img alt="linkedin" src="http://sitecorehackathon.org/wp-content/uploads/2014/09/linkedin.png" width="16" height="16" style="margin: 0px; padding: 0px; border: none;" /></a></li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">Jason Wilkerson -<a rel="noopener noreferrer" href="https://twitter.com/LonghornTaco" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;"><img alt="twitter" src="http://sitecorehackathon.org/wp-content/uploads/2014/09/twitter.png" width="18" height="14" style="margin: 0px; padding: 0px; border: none;" /></a>&nbsp;<a rel="noopener noreferrer" href="https://www.linkedin.com/in/jasonmwilkerson/" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;"><img alt="linkedin" src="http://sitecorehackathon.org/wp-content/uploads/2014/09/linkedin.png" width="16" height="16" style="margin: 0px; padding: 0px; border: none;" /></a></li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">Michael Reynolds -<a rel="noopener noreferrer" href="https://twitter.com/mike_i_reynolds" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;"><img alt="twitter" src="http://sitecorehackathon.org/wp-content/uploads/2014/09/twitter.png" width="18" height="14" style="margin: 0px; padding: 0px; border: none;" /></a>&nbsp;<a rel="noopener noreferrer" href="https://www.linkedin.com/in/michaelianreynolds" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;"><img alt="linkedin" src="http://sitecorehackathon.org/wp-content/uploads/2014/09/linkedin.png" width="16" height="16" style="margin: 0px; padding: 0px; border: none;" /></a></li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">Neil Shack -<a rel="noopener noreferrer" href="https://twitter.com/nshack31" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;"><img alt="twitter" src="http://sitecorehackathon.org/wp-content/uploads/2014/09/twitter.png" width="18" height="14" style="margin: 0px; padding: 0px; border: none;" /></a>&nbsp;<a rel="noopener noreferrer" href="https://www.linkedin.com/in/neil-shack/" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;"><img alt="linkedin" src="http://sitecorehackathon.org/wp-content/uploads/2014/09/linkedin.png" width="16" height="16" style="margin: 0px; padding: 0px; border: none;" /></a></li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">Una Verhoeven -<a rel="noopener noreferrer" href="https://twitter.com/unaverhoeven" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;"><img alt="twitter" src="http://sitecorehackathon.org/wp-content/uploads/2014/09/twitter.png" width="18" height="14" style="margin: 0px; padding: 0px; border: none;" /></a>&nbsp;<a rel="noopener noreferrer" href="https://www.linkedin.com/in/unaverhoeven/" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;"><img alt="linkedin" src="http://sitecorehackathon.org/wp-content/uploads/2014/09/linkedin.png" width="16" height="16" style="margin: 0px; padding: 0px; border: none;" /></a></li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">Alex Washtell -<a rel="noopener noreferrer" href="https://twitter.com/kasaku_dev" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;"><img alt="twitter" src="http://sitecorehackathon.org/wp-content/uploads/2014/09/twitter.png" width="18" height="14" style="margin: 0px; padding: 0px; border: none;" /></a>&nbsp;<a rel="noopener noreferrer" href="https://www.linkedin.com/in/awashtell/" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;"><img alt="linkedin" src="http://sitecorehackathon.org/wp-content/uploads/2014/09/linkedin.png" width="16" height="16" style="margin: 0px; padding: 0px; border: none;" /></a></li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">Michael West -<a rel="noopener noreferrer" href="https://twitter.com/MichaelWest101" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;"><img alt="twitter" src="http://sitecorehackathon.org/wp-content/uploads/2014/09/twitter.png" width="18" height="14" style="margin: 0px; padding: 0px; border: none;" /></a>&nbsp;<a rel="noopener noreferrer" href="https://www.linkedin.com/in/michaellwest/" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;"><img alt="linkedin" src="http://sitecorehackathon.org/wp-content/uploads/2014/09/linkedin.png" width="16" height="16" style="margin: 0px; padding: 0px; border: none;" /></a></li>
+        </ul>
+    - ID: "5dfa7096-7e86-48b1-95d6-baa6bd9fcce0"
+      Hint: Title5
+      Value: FAQs
+    - ID: "795bfcf9-33c3-466e-8ecb-b9515c30dc3b"
+      Hint: Content1
+      Value: |
+        <p style="color: #555555; background-color: #ffffff; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px;">All teams are required to submit the following as part of their entry submission on or before the end of the Hackathon on Saturday February 29th 2020 at 8PM EST. The modules should be based on&nbsp;<a rel="noopener noreferrer" href="https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/93/Sitecore_Experience_Platform_93_Initial_Release.aspx" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;">Sitecore 9.3&nbsp;</a>and if you are using commerce it should be Sitecore Experience Commerce 9.3.</p>
+        <ul style="color: #555555; background-color: #ffffff; margin: 0px 0px 20px 2px; padding: 0px 0px 0px 20px; border: 0px; list-style-type: square; list-style-image: initial;">
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">Deploy package (.zip) or a Sitecore Module install package with proper installation instructions</li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">Module Code in the Git source repository (Provided)
+            <ul style="margin: 0px 0px 20px 2px; padding: 0px 0px 0px 20px; border: 0px; list-style-type: square; list-style-image: initial;">
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">Cleanliness of code</li>
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">Commenting where necessary</li>
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">Code Structure</li>
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">Standard coding standards &amp; naming conventions</li>
+            </ul>
+            </li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;"><strong style="margin: 0px; padding: 0px; border: 0px;">Precise and Clear Installation Instructions document (1 &ndash; 2 pages)</strong></li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;"><strong style="margin: 0px; padding: 0px; border: 0px;">Module usage documentation on Readme.md file on the Git Repository provided to you (2 &ndash; 5 pages)</strong>
+            <ul style="margin: 0px 0px 20px 2px; padding: 0px 0px 0px 20px; border: 0px; list-style-type: square; list-style-image: initial;">
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">Module Purpose</li>
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">Module Sitecore Hackathon Category</li>
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">How does the end user use the Module?</li>
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">Screenshots, etc.</li>
+            </ul>
+            </li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;"><strong style="margin: 0px; padding: 0px; border: 0px;">Create a 2 &ndash; 10 minutes video explaining the module&rsquo;s functionality (A link to youtube video)</strong>
+            <ul style="margin: 0px 0px 20px 2px; padding: 0px 0px 0px 20px; border: 0px; list-style-type: square; list-style-image: initial;">
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">What problem was solved</li>
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">How did you solve it</li>
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">What is the end result</li>
+            </ul>
+            </li>
+        </ul>
+    - ID: "8f728cbc-2577-400e-800e-7dcb8069b82b"
+      Hint: Content3
+      Value: |
+        <p style="color: #555555; background-color: #ffffff; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px;">The winning teams will each receive a $200 Amazon gift card per team member, making the total $600 per team for a three person team. The Amazon gift cards will be emailed to the email addresses on file no later than 10 days after the winning team is announced. If Amazon gift cards are not available in the region, alternate arrangements will be made.</p>
+        <p style="color: #555555; background-color: #ffffff; margin: 0px 0px 20px; padding: 0px; border: 0px;">We will showcase your company logo and/or your team photo on this website.</p>
+        <ol style="color: #555555; background-color: #ffffff; margin: 0px 0px 20px 2px; padding: 0px 0px 0px 20px; border: 0px; list-style-image: initial;">
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">No purchase necessary.</li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">Must 21 years or older at time of entry.</li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">Additional terms, conditions and restrictions apply</li>
+        </ol>
+    - ID: "9e0d99b4-800a-41c8-b4ea-f888120ece13"
+      Hint: Content
+      Value: |
+        <p style="color: #555555; background-color: #ffffff; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px;">The 2020 Sitecore Hackathon is a free online community driven event organized by&nbsp;<a rel="noopener noreferrer" href="https://twitter.com/akshaysura13" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;">Akshay Sura</a>&nbsp;and supported by Sitecore. (Shout out to&nbsp;<a rel="noopener noreferrer" href="https://twitter.com/pieterbrink123" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;">Pieter</a>, &nbsp;<a rel="noopener noreferrer" href="https://twitter.com/markvanaalst" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;">Mark</a>&nbsp;and&nbsp;<a rel="noopener noreferrer" href="https://twitter.com/VargaT" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;">Tamas</a>).</p>
+        <p style="color: #555555; background-color: #ffffff; margin: 0px 0px 20px; padding: 0px; border: 0px;">Teams that have signed up by&nbsp;<strong style="margin: 0px; padding: 0px; border: 0px;">6 pm EST February 14, 2020</strong>&nbsp;will have the opportunity to participate in the contest. Eligible teams will have 24 hours &mdash; starting&nbsp;<strong style="margin: 0px; padding: 0px; border: 0px;">Friday February 28th 2020 at 8PM EST</strong>&nbsp;and ending&nbsp;<strong style="margin: 0px; padding: 0px; border: 0px;">Saturday February 29th 2020 at 8PM EST</strong>&nbsp;&ndash; to build and submit a Sitecore module best implementing the idea for the Hackathon, as determined by our panel of judges. The idea(s) will be announced an hour before the Hackathon starts on February 28th.</p>
+        <p style="color: #555555; background-color: #ffffff; margin: 0px 0px 20px; padding: 0px; border: 0px;"><strong style="margin: 0px; padding: 0px; border: 0px;"><span style="text-decoration: underline;">We had to choose a date so that we can make sure the announcements can be made at the SUGCON EU 2020 on in Budapest.</span></strong></p>
+        <div style="color: #555555; background-color: #ffffff; margin: 0px; padding: 0px; border: 0px;">Quick Stats</div>
+        <ul style="color: #555555; background-color: #ffffff; margin: 0px 0px 20px 2px; padding: 0px 0px 0px 20px; border: 0px; list-style-type: square; list-style-image: initial;">
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">82 Teams participating</li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;">Entries from over 23 countries</li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px;"><a rel="noopener noreferrer" href="https://photos.app.goo.gl/sYtfuxPKS5R558t19" target="_blank" style="color: #bf3417; margin: 0px; padding: 0px; border: 0px;">Pictures from the 2020 Hackathon</a></li>
+        </ul>
+    - ID: "9ea5ddc1-e3f3-4cb6-9457-7888fc20d23f"
+      Hint: Content5
+      Value: |
+        <div style="color: #555555; background-color: #ffffff; margin: 0px; padding: 0px; border: 0px;"><strong style="margin: 0px; padding: 0px; border: 0px;">Q. How many members can be in each team?</strong></div>
+        <div style="color: #555555; background-color: #ffffff; margin: 0px; padding: 0px; border: 0px;"><strong style="margin: 0px; padding: 0px; border: 0px;">A.</strong>&nbsp;There can only be 3 team members maximum in a team.</div>
+        <div style="color: #555555; background-color: #ffffff; margin: 0px; padding: 0px; border: 0px;">&nbsp;</div>
+        <div style="color: #555555; background-color: #ffffff; margin: 0px; padding: 0px; border: 0px;"><strong style="margin: 0px; padding: 0px; border: 0px;">Q. Can I team up with other members not in the same organization and form a team?</strong></div>
+        <div style="color: #555555; background-color: #ffffff; margin: 0px; padding: 0px; border: 0px;"><strong style="margin: 0px; padding: 0px; border: 0px;">A.</strong>&nbsp;Absolutely, you can team up with any other Sitecore developer to form a team.</div>
+        <div style="color: #555555; background-color: #ffffff; margin: 0px; padding: 0px; border: 0px;">&nbsp;</div>
+        <div style="color: #555555; background-color: #ffffff; margin: 0px; padding: 0px; border: 0px;"><strong style="margin: 0px; padding: 0px; border: 0px;">Q. Do we have to work on our module all 24 hours of the hackathon?</strong></div>
+        <div style="color: #555555; background-color: #ffffff; margin: 0px; padding: 0px; border: 0px;"><strong style="margin: 0px; padding: 0px; border: 0px;">A.</strong>&nbsp;No, you can schedule your time and delegate appropriately. You can use as much or as little of the 24 hours to build your module.</div>
+        <div style="color: #555555; background-color: #ffffff; margin: 0px; padding: 0px; border: 0px;">&nbsp;</div>
+        <div style="color: #555555; background-color: #ffffff; margin: 0px; padding: 0px; border: 0px;"><strong style="margin: 0px; padding: 0px; border: 0px;">Q. I am a Team of One but want to participate, what can I do?</strong></div>
+        <div style="color: #555555; background-color: #ffffff; margin: 0px; padding: 0px; border: 0px;"><strong style="margin: 0px; padding: 0px; border: 0px;">A.</strong>&nbsp;We see this every year, where we find either an individual or a team of two, get in touch with me. I can try to pair you up with others in the similar situation and help you form a team.</div>
+    - ID: "a4b5e8aa-c602-4917-a744-d3a37ccefe69"
+      Hint: Title
+      Value: Sitecore Hackathon 2020
+    - ID: "d0cbc508-69ae-41c0-a45f-55f4ede36311"
+      Hint: Title
+      Value: HackathonPage2020

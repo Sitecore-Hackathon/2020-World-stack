@@ -1,0 +1,14 @@
+﻿---
+ID: "601f153a-c398-418d-808a-733cfefef2fe"
+Parent: "82dd2aa6-cf21-4c0a-86f8-7a7983731d97"
+Template: "82dd2aa6-cf21-4c0a-86f8-7a7983731d97"
+Path: /sitecore/templates/Project/WorldStack/HackathonPages/Registration/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101734Z

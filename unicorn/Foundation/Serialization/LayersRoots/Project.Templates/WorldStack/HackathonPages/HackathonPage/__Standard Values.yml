@@ -1,0 +1,32 @@
+﻿---
+ID: "7af0d0b3-6aed-43c0-b664-3d2c65e41745"
+Parent: "1666acc2-5391-401c-9716-d43d535df7ca"
+Template: "1666acc2-5391-401c-9716-d43d535df7ca"
+Path: /sitecore/templates/Project/WorldStack/HackathonPages/HackathonPage/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "01529935-0d9b-4e4e-8840-b5c37196c0a5"
+      Hint: Title2
+      Value: Judges
+    - ID: "1690769d-1445-4a1b-8ef3-cd071dd5313e"
+      Hint: Title1
+      Value: Entry Submission Requirements
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101620Z
+    - ID: "33d56c4c-adf7-483f-8d82-e47287cde1e1"
+      Hint: Title4
+      Value: Team
+    - ID: "422ed664-4938-4ed0-9443-bfa046434e38"
+      Hint: Title3
+      Value: Prizes
+    - ID: "5dfa7096-7e86-48b1-95d6-baa6bd9fcce0"
+      Hint: Title5
+      Value: FAQs
+    - ID: "a4b5e8aa-c602-4917-a744-d3a37ccefe69"
+      Hint: Title
+      Value: Sitecore Hackathon <YEAR>

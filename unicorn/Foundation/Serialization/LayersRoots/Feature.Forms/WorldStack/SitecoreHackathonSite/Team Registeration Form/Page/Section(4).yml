@@ -1,0 +1,29 @@
+﻿---
+ID: "6e4ed233-f694-4cc4-884a-d5964d60697d"
+Parent: "626a87f6-4315-4704-97c4-228ae8c28a5d"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: /sitecore/Forms/Feature/WorldStack/SitecoreHackathonSite/Team Registeration Form/Page/Section(4)
+DB: master
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: F00155517F0F48B2A651184601F85FB6
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T025247Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

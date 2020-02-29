@@ -1,0 +1,14 @@
+﻿---
+ID: "3a1bf3b6-4cd2-4930-9df1-b0329cacc57a"
+Parent: "78983335-035c-45a2-8245-8feb23923e4a"
+Template: "9c2d0fdf-4daf-4494-bde7-f857f1924825"
+Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Data/Navigation Filters
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101045Z

@@ -1,0 +1,20 @@
+﻿---
+ID: "35a843d7-4f95-4530-b3ea-c9ce9d0bea6d"
+Parent: "a6beb605-f5df-4ef9-a2e8-e956ca73b3d3"
+Template: "cc56c37f-ccd4-493a-af22-b2486c07c7a4"
+Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Home/Home
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101255Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Home
+    - ID: "d0cbc508-69ae-41c0-a45f-55f4ede36311"
+      Hint: Title
+      Value: Home
