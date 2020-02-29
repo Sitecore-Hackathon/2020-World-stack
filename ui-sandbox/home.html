@@ -3,10 +3,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TEST</title>
-    <link href="SitecoreHackathon/styles/pre-optimized-min.css" media="all" rel="stylesheet"/>
-    <script src="SitecoreHackathon/scripts/pre-optimized-min.js"></script>
+    <link href="../themes/SitecoreHackathon/styles/pre-optimized-min.css" media="all" rel="stylesheet"/>
+    <script src="../themes/SitecoreHackathon/scripts/pre-optimized-min.js"></script>
 </head>
 <body>
-    
+    <!-- <div class="section">
+        <a href="#" class="button">Button</a>
+    </div> -->
+    <div class="component section heading">
+        <div class="card teams-card">
+            <div class="card-container">
+                <div class="title">
+                    Team Name
+                </div>
+                <script>
+                    // url (required), options (optional)
+                    fetch('http://twitter.com/users/show/roysarango.json', {
+                        method: 'get'
+                    }).then(function(response) {
+                        console.log(response);
+                    }).catch(function(err) {
+                        // Error :(
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

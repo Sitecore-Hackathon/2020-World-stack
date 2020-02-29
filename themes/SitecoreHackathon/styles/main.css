@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* breakpoints */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese");
+@import url("http://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese");
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -3058,10 +3059,10 @@ html {
 }
 
 body {
-  font-family: "Open Sans", Helvetica, Verdana, Tahoma, sans-serif;
+  font-family: "Montserrat", Helvetica, Verdana, Tahoma, sans-serif;
   position: relative;
   overflow: auto;
-  color: #747474;
+  color: #232323;
   font-size: 14px;
   line-height: 1.5;
   background: #FFFFFF;
@@ -3113,6 +3114,28 @@ h5 {
 
 h6 {
   font-size: 0.67em;
+}
+
+.button {
+  font-size: 18px;
+  font-weight: semibold;
+  color: white;
+  background-color: #fe2911;
+  border-radius: 0px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  padding: 12px 24px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #19a5a2;
+  color: white;
+}
+
+.button:active {
+  background-color: #61cfcd;
+  color: white;
 }
 
 .xa-variable {

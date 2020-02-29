@@ -11,10 +11,10 @@ html {
 }
 
 body {
-    @include opensans-font-stack();
+    @include montserrat-font-stack();
     position: relative;
     overflow: auto;
-    color: $text-basic;
+    color: $sc-black;
     font-size: 14px;
     line-height: 1.5;
     background: $page-bg;
@@ -64,6 +64,25 @@ h5 {
 
 h6 {
     font-size: 0.67em;
+}
+
+.button {
+    font-size: 18px;
+    font-weight: semibold;
+    color: white;
+    background-color: $sc-red;
+    border-radius: 0px;
+    transition: 0.3s ease;
+    padding: 12px 24px;
+    text-decoration: none;
+    &:hover {
+        background-color: $sc-light-blue;
+        color: white;
+    }
+    &:active {
+        background-color: $sc-lighter-blue;
+        color: white;
+    }
 }
 
 .xa-variable {
