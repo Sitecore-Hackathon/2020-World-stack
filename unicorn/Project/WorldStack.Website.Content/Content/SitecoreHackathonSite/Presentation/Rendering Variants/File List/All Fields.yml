@@ -4,7 +4,6 @@ Parent: "b4bd289d-2bc5-4759-a943-ff9553d5efec"
 Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
 Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Presentation/Rendering Variants/File List/All Fields
 DB: master
-BranchID: "83becf6f-0518-4128-a395-8906981b7cb1"
 SharedFields:
 - ID: "90294353-706a-431c-b855-cd245824d9fa"
   Hint: LinkField
