@@ -1,0 +1,18 @@
+﻿---
+ID: "78c6e14a-1f21-4724-979b-873b0b1b13b4"
+Parent: "074ef88d-dfe8-48fa-b20c-4feff9d3ff1d"
+Template: "1d840426-5def-4a76-811c-e73da21f64ac"
+Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Settings/Twitter Apps/SCHackathon
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T171736Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

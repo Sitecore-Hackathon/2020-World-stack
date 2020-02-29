@@ -1,0 +1,24 @@
+﻿---
+ID: "7b6223f9-5086-4893-89df-35c20c391532"
+Parent: "a922d61d-5004-4631-8fd1-879ef6508e1b"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/Feature/WorldStack/GithubCards/GithubRepoList
+DB: master
+SharedFields:
+- ID: "13f89250-ad6b-4548-882e-118a12c18094"
+  Hint: Parameters Template
+  Value: "{56DD1E56-0252-44C0-A8CC-38563A4E50C8}"
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: GetGithubRepoList
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: WorldStack.Feature.GithubRepoCards.Controllers.GithubRepoController, WorldStack.Feature.GithubRepoCards
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T160545Z

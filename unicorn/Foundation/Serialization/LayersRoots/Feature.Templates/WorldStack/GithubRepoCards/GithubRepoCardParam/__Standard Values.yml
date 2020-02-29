@@ -1,0 +1,14 @@
+﻿---
+ID: "d83193bc-bee2-4b39-9e62-fc30277e834b"
+Parent: "56dd1e56-0252-44c0-a8cc-38563a4e50c8"
+Template: "56dd1e56-0252-44c0-a8cc-38563a4e50c8"
+Path: /sitecore/templates/Feature/WorldStack/GithubRepoCards/GithubRepoCardParam/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T190926Z

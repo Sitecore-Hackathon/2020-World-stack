@@ -18,4 +18,7 @@ Languages:
       Value: 20200229T103714Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: HackathonPage2020
+      Value: Hackathon 2020
+    - ID: "d0cbc508-69ae-41c0-a45f-55f4ede36311"
+      Hint: Title
+      Value: Sitecore Hackathon

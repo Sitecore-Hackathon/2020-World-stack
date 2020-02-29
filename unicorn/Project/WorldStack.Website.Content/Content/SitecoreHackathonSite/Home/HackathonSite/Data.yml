@@ -1,0 +1,18 @@
+﻿---
+ID: "0c4b8f28-ad76-4f82-b09c-d96e7477a04d"
+Parent: "a29f0794-10ce-405d-b0f2-70fa3e0d3df4"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Home/HackathonSite/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T183711Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

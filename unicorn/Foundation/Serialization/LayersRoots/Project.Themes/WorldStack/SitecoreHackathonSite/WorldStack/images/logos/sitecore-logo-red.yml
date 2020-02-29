@@ -1,0 +1,35 @@
+﻿---
+ID: "01ffd53a-8838-4916-bf15-856aac314a2e"
+Parent: "e88c136a-19b9-4b9b-b0a5-130dd3b7e6c3"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Themes/WorldStack/SitecoreHackathonSite/WorldStack/images/logos/sitecore-logo-red"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/01FFD53A88384916BF15856AAC314A2E.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "9833506d-cd2a-4eb4-b90d-9e5fbd879266"
+  Value: PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyNC4wLjIsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FscXVlXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTAgNTAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUwIDUwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojRkUyOTExO30NCjwvc3R5bGU+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjUsMkMxMi4zLDIsMiwxMi4zLDIsMjVzMTAuMywyMywyMywyM3MyMy0xMC4zLDIzLTIzUzM3LjcsMiwyNSwyeiBNMjUsOGM5LjQsMCwxNyw3LjYsMTcsMTdzLTcuNiwxNy0xNywxNw0KCVM4LDM0LjQsOCwyNVMxNS42LDgsMjUsOHogTTM0LjIsMTMuMmwtNi41LDQuNWwwLjQsMC43YzAsMCwwLjgsMS40LDAuOSwzLjVjMCwxLjcsMCw5LTExLDljLTMsMC03LTEtNy0xczMsMywxMSwzDQoJYzEwLjgsMCwxMS0xMS41LDExLTEybDAtMWw2LjEsMEMzOC4yLDE3LjMsMzYuNSwxNSwzNC4yLDEzLjJ6IE0zNC45LDIyYy0wLjMsMy4yLTIuMSwxMy0xMi45LDEzYy0zLjQsMC02LjUtMC43LTguOS0xLjQNCglDMTQuOSwzNSwxOC40LDM3LDI0LDM3YzcuMywwLDExLjEtNi40LDExLjEtNi41bDAuNS0wLjlsMi44LDEuOWMxLTIsMS41LTQuMiwxLjUtNi41YzAtMS0wLjEtMi0wLjMtM0MzOS43LDIyLDM0LjksMjIsMzQuOSwyMnoNCgkgTTM2LjMsMzIuNGMtMS40LDItNS41LDYuNi0xMi4zLDYuNmMtMi40LDAtNC40LTAuMy02LjItMC44QzIwLDM5LjQsMjIuNSw0MCwyNSw0MGM1LjIsMCw5LjgtMi43LDEyLjUtNi44TDM2LjMsMzIuNHoiLz4NCjwvc3ZnPg0K
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1020
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T174249Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

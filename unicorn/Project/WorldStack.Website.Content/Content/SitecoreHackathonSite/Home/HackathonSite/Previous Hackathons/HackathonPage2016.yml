@@ -1,0 +1,21 @@
+﻿---
+ID: "8eeaa8ad-7959-4daa-8d2a-cd5a42757a49"
+Parent: "c506c43a-5f80-48ed-ad5a-d2edcd6b7d55"
+Template: "1666acc2-5391-401c-9716-d43d535df7ca"
+Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Home/HackathonSite/Previous Hackathons/HackathonPage2016
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 375
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T103714Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Hackathon 2018
