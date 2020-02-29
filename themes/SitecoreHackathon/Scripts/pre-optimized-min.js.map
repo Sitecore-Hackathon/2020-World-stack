@@ -1,0 +1,1 @@
+{"version":3,"sources":["test.js"],"names":["myFn","console","log"],"mappings":"AAAA,IAAAA,KAAA,WACAC,QAAAC,IAAA,SAGAF","file":"pre-optimized-min.js","sourcesContent":["var myFn = function myFn(x) {\n  console.log(\"test\");\n};\n\nmyFn();"]}
