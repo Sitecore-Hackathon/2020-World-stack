@@ -4,7 +4,6 @@ Parent: "3d78b140-86e4-46af-a196-22704820a0a5"
 Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
 Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Presentation/Rendering Variants/Search Box/horizontal/Title
 DB: master
-BranchID: "0d360bbd-4fae-4863-88b9-ae5be82be6f0"
 SharedFields:
 - ID: "4753764c-c05a-4623-841b-97f85135241c"
   Hint: FieldName

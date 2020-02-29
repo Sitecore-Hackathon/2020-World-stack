@@ -4,7 +4,6 @@ Parent: "873ffcea-eeee-454b-bec1-7a97d94e04eb"
 Template: "4da8b9e5-c51d-4d8f-a35d-12f15c3e3c5a"
 Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Settings
 DB: master
-BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
@@ -28,6 +27,10 @@ SharedFields:
 - ID: "af332c24-fe17-41e7-8caf-8e64c588fe72"
   Hint: EditingTheme
   Value: "{2BBA850C-7617-4C85-8B27-14708E8D06BD}"
+- ID: "beeede03-ab13-4558-96f9-c3e8957b46f8"
+  Hint: Themes
+  Type: Treelist
+  Value: "{208DEB26-32B7-4D02-A8E6-FA2400C22F18}"
 - ID: "e81e1f9e-8b87-495b-9cb7-84a2a23133be"
   Hint: MediaLibrary
   Value: "{EDF3FA2E-2F4A-4003-9E3A-992E14B0377B}"

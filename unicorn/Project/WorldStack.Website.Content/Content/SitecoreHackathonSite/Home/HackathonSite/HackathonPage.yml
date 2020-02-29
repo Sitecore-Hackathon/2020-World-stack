@@ -1,5 +1,5 @@
 ﻿---
-ID: "2dc0cf93-e39f-4cda-b4e1-09766e4ffa50"
+ID: "963f2462-3ba6-4204-ac2c-525ab0029af8"
 Parent: "a29f0794-10ce-405d-b0f2-70fa3e0d3df4"
 Template: "1666acc2-5391-401c-9716-d43d535df7ca"
 Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Home/HackathonSite/HackathonPage
@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 0
+  Value: 87
 Languages:
 - Language: en
   Versions:
@@ -15,10 +15,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T112142Z
+      Value: 20200229T103714Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: HackathonPage
-    - ID: "d0cbc508-69ae-41c0-a45f-55f4ede36311"
-      Hint: Title
-      Value: HackathonPage
+      Value: HackathonPage2020

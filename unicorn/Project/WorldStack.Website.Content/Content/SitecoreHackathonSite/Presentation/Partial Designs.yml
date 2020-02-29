@@ -4,7 +4,6 @@ Parent: "985401d0-85f6-48af-b37c-e943b59c22ca"
 Template: "92c2d920-5333-4d9b-8c84-b5016c450f82"
 Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Presentation/Partial Designs
 DB: master
-BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator

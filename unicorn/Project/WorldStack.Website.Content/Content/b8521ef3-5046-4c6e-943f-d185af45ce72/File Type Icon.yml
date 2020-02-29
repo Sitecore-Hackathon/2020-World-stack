@@ -4,7 +4,6 @@ Parent: "b8521ef3-5046-4c6e-943f-d185af45ce72"
 Template: "6eca12e9-f4d5-4f6e-9c3c-6df716bc593b"
 Path: /sitecore/content/WorldStack/SitecoreHackathonSite/Presentation/Rendering Variants/File List/All Fields/File 2/File Type Icon
 DB: master
-BranchID: "83becf6f-0518-4128-a395-8906981b7cb1"
 SharedFields:
 - ID: "3a4dd4df-8d32-405f-831a-39f87a550085"
   Hint: Token
