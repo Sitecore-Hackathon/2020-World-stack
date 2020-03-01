@@ -43,7 +43,7 @@ It requires accessToken from Github in order to access Github Client api. Please
 
 
 
-[![Watch the video](https://github.com/Sitecore-Hackathon/2020-World-stack/blob/master/documentation/images/PAGE1.png)](https://github.com/Sitecore-Hackathon/2020-World-stack/blob/master/documentation/video/Sitecore%20Hackathon%202020%20-%20Google%20Chrome%202020-03-01%2001-15-49.mp4)
+[![Watch the video](https://github.com/Sitecore-Hackathon/2020-World-stack/blob/master/documentation/images/PAGE1.png)](https://www.youtube.com/watch?v=IhotEbaVAH8&feature=youtu.be)
 
 **FAQs**
 
