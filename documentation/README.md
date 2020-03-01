@@ -1,71 +1,61 @@
-# Documentation
+**Sitecore Hackathon**
 
-The documentation for this years Hackathon must be provided as a readme in Markdown format as part of your submission. 
+**Team:** WorldStack
+**Topic chosen:** Sitecore Hackathon Website
+**Purpose to choose** : We found hackathon site to be really interesting to work on as we found so many ideas on how to improve it.
 
-You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
+This site has developed using Sitecore 9.3 and with below list of features.
 
-Examples of things to include are the following.
+1. Sitecore Helix Solution Structure
+2. SxA Theme development
+3. SxA Pages and Components
+4. Sitecore Form integration
+5. Unicorn Integration
+6. External API (GitHub) client to get repository details
+7. Swiper/Vanilla Tilt JS
 
-## Summary
+**Pages:**
 
-**Category:** Hackathon Category
+**Home Page**
 
-What is the purpose of your module? What problem does it solve and how does it do that?
+This is main page for the site, it displays all the important information regarding Sitecore Hackathon.
 
-## Pre-requisites
+![Image description](https://github.com/Sitecore-Hackathon/2020-World-stack/blob/master/documentation/images/PAGE1.png)
 
-Does your module rely on other Sitecore modules or frameworks?
+**Hackathon Pages**
 
-- List any dependencies
-- Or other modules that must be installed
-- Or services that must be enabled/configured
+These pages display the information of the previous Sitecore hackathons.
 
-## Installation
+**Registration Form**
 
-Provide detailed instructions on how to install the module, and include screenshots where necessary.
+This form allows to register for the current year&#39;s hackathon.
 
-1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-2. ???
-3. Profit
+![Image description](https://github.com/Sitecore-Hackathon/2020-World-stack/blob/master/documentation/images/PAGE2.png)
 
-## Configuration
+**Components:**
 
-How do you configure your module once it is installed? Are there items that need to be updated with settings, or maybe config files need to have keys updated?
+**GitHub Cards**
 
-Remember you are using Markdown, you can provide code samples too:
+A dynamic component that lists all the repositories within an account. It filters repositories based on Name (ex: &#39;2020-&#39; will list all the repos prefixed with 2020). It shows information regarding last updated, forks, stars etc. There is a rendering property through which winning teams can be highlighted.
+It requires accessToken from Github in order to access Github Client api. Please update it in WorldStack.Feature.GithubRepo.config
 
-```xml
-<?xml version="1.0"?>
-<!--
-  Purpose: Configuration settings for my hackathon module
--->
-<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
-  <sitecore>
-    <settings>
-      <setting name="MyModule.Setting" value="Hackathon" />
-    </settings>
-  </sitecore>
-</configuration>
-```
+![Image description](https://github.com/Sitecore-Hackathon/2020-World-stack/blob/master/documentation/images/Capture1.PNG)
 
-## Usage
 
-Provide documentation  about your module, how do the users use your module, where are things located, what do icons mean, are there any secret shortcuts etc.
 
-Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
+**FAQs**
 
-![Hackathon Logo](images/hackathon.png?raw=true "Hackathon Logo")
+This page provides with the most frequently asked questions and their answers in a cool way.
 
-You can embed images of different formats too:
+**Customization of SxA Components**
 
-![Deal With It](images/deal-with-it.gif?raw=true "Deal With It")
+Customization of SxA header, footer, Navigation, Accordion and Title. They inherit a new set of styles that corresponds to Sitecore Hackathon colors.
 
-And you can embed external images too:
+**Future Work**
 
-![Random](https://placeimg.com/480/240/any "Random")
+We are aiming to extend the Sitecore Hackathon site with the following features:
 
-## Video
-
-Please provide a video highlighing your Hackathon module submission and provide a link to the video. Either a [direct link](https://www.youtube.com/watch?v=EpNhxW4pNKk) to the video, upload it to this documentation folder or maybe upload it to Youtube...
-
-[![Sitecore Hackathon Video Embedding Alt Text](https://img.youtube.com/vi/EpNhxW4pNKk/0.jpg)](https://www.youtube.com/watch?v=EpNhxW4pNKk)
+1. Provide an interactive map to show the teams geographically
+2. Provide a board for the judges to automate the scoring process and to select the top winners
+3. Provide an automatic emailing system (notifications) using custom contact list and Email Exp Manager
+4. Feature to search Sitecore Hackathon Github Repo especially code lines using Github client which will be very useful for Sitecore developers ( Server code created in Foundations )
