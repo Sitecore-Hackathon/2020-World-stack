@@ -20,6 +20,8 @@ This site has developed using Sitecore 9.3 and with below list of features.
 
 This is main page for the site, it displays all the important information regarding Sitecore Hackathon.
 
+![Image description](https://github.com/Sitecore-Hackathon/2020-World-stack/blob/master/documentation/images/PAGE1.png)
+
 **Hackathon Pages**
 
 These pages display the information of the previous Sitecore hackathons.
@@ -28,12 +30,18 @@ These pages display the information of the previous Sitecore hackathons.
 
 This form allows to register for the current year&#39;s hackathon.
 
+![Image description](https://github.com/Sitecore-Hackathon/2020-World-stack/blob/master/documentation/images/PAGE2.png)
+
 **Components:**
 
 **GitHub Cards**
 
 A dynamic component that lists all the repositories within an account. It filters repositories based on Name (ex: &#39;2020-&#39; will list all the repos prefixed with 2020). It shows information regarding last updated, forks, stars etc. There is a rendering property through which winning teams can be highlighted.
 It requires accessToken from Github in order to access Github Client api. Please update it in WorldStack.Feature.GithubRepo.config
+
+![Image description](https://github.com/Sitecore-Hackathon/2020-World-stack/blob/master/documentation/images/Capture1.PNG)
+
+
 
 **FAQs**
 
