@@ -43,6 +43,10 @@ It requires accessToken from Github in order to access Github Client api. Please
 
 
 
+**PLEASE CLICK TO WATCH VIDEO**
+
+[![Watch the video](http://i3.ytimg.com/vi/IhotEbaVAH8/hqdefault.jpg)](https://www.youtube.com/watch?v=IhotEbaVAH8&feature=youtu.be)
+
 **FAQs**
 
 This page provides with the most frequently asked questions and their answers in a cool way.
